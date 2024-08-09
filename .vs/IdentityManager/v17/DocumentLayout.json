@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\.NET Project\\IdentityManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|c:\\.net project\\identitymanager\\identitymanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|solutionrelative:identitymanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|c:\\.net project\\identitymanager\\identitymanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|solutionrelative:identitymanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|c:\\.net project\\identitymanager\\identitymanager\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|solutionrelative:identitymanager\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|c:\\.net project\\identitymanager\\identitymanager\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|solutionrelative:identitymanager\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|c:\\.net project\\identitymanager\\identitymanager\\startupextensions\\configureserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F0488D4-4D76-464E-AEFD-AB9042C244E3}|IdentityManager\\IdentityManager.csproj|solutionrelative:identitymanager\\startupextensions\\configureserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,38 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "IdentityManager\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "IdentityManager\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T17:17:35.095Z",
+              "DocumentIndex": 2,
+              "Title": "ConfigureServiceExtension.cs",
+              "DocumentMoniker": "C:\\.NET Project\\IdentityManager\\IdentityManager\\StartupExtensions\\ConfigureServiceExtension.cs",
+              "RelativeDocumentMoniker": "IdentityManager\\StartupExtensions\\ConfigureServiceExtension.cs",
+              "ToolTip": "C:\\.NET Project\\IdentityManager\\IdentityManager\\StartupExtensions\\ConfigureServiceExtension.cs",
+              "RelativeToolTip": "IdentityManager\\StartupExtensions\\ConfigureServiceExtension.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T17:59:12.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "IdentityManager\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "IdentityManager\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDMAAAABAAAA",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "IdentityManager\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "IdentityManager\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T16:36:50.301Z"
+              "WhenOpened": "2024-08-09T17:36:32.167Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "IdentityManager\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "IdentityManager\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAYwC0AAAAdAAAA",
+              "ToolTip": "C:\\.NET Project\\IdentityManager\\IdentityManager\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "IdentityManager\\Controllers\\AccountController.cs*",
+              "ViewState": "AQIAADMAAAAAAAAAAAAgwDkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T15:15:33.542Z",
               "EditorCaption": ""
