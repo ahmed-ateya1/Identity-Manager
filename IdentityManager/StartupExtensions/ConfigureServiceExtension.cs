@@ -14,8 +14,12 @@ namespace IdentityManager.StartupExtensions
             {
                 options.UseSqlServer(configuration.GetConnectionString("connstr"));
             });
-            services.AddIdentity<ApplicationUser,ApplicationRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddIdentity<ApplicationUser, ApplicationRole>(opt =>
+            {
+                opt.Lockout.MaxFailedAccessAttempts = 3;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(3);
+            })
+            .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddAuthorization(options =>
             {

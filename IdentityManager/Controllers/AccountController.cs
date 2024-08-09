@@ -65,7 +65,7 @@ namespace IdentityManager.Controllers
                 return View(loginView);
             }
 
-            var result = await _signInManager.PasswordSignInAsync(loginView.Email, loginView.Password,isPersistent: loginView.RememberMe,lockoutOnFailure: false);
+            var result = await _signInManager.PasswordSignInAsync(loginView.Email, loginView.Password,isPersistent: loginView.RememberMe,lockoutOnFailure: true);
 
             if (result.Succeeded)
             {
@@ -74,6 +74,10 @@ namespace IdentityManager.Controllers
                     return LocalRedirect(returnURL);
                 }
                 return RedirectToAction("Index", "Home");
+            }
+            else if(result.IsLockedOut)
+            {
+                return View("Lockout");
             }
             ViewBag.ReturnUrl = returnURL;
             ModelState.AddModelError(String.Empty, "Email or password not correct");
@@ -85,6 +89,11 @@ namespace IdentityManager.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Register");
+        }
+        [HttpGet]
+        public IActionResult Lockout()
+        {
+            return View();
         }
         private void AddError(IdentityResult result)
         {
